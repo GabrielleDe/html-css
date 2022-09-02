@@ -1,0 +1,32 @@
+.container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.rect{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+}
+
+.enfant1{
+    bottom: 0px;
+    right: 0px;
+}
+
+.enfant2{
+    bottom: 0px;
+    left: 0px;
+}
+
+.enfant3{
+    top: 0px;
+    right: 0px;
+}
+
+.enfant4{
+    top: 0px;
+    left: 0px;
+}

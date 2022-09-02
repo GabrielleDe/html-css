@@ -1,0 +1,44 @@
+https://flukeout.github.io/
+
+plate//
+bento//
+#fancy//
+plate apple//
+#fancy pickle//
+.small//
+orange.small//
+
+bento orange.small//
+bento,plate//
+*//
+orange, pickle, plate apple// plate *
+plate+.small, plate+apple//
+
+bento+.small, .small+pickle//
+plate+ plate apple//
+orange:first-child//
+plate :only-child//
+#fancy :last-child, pickle//
+
+plate:nth-child(3)//
+bento:nth-last-child(3)//
+apple:first-of-type//
+plate:nth-of-type(even)//
+plate:nth-of-type(2n+3)//
+plate .small:only-of-type//
+orange:last-of-type, apple:last-of-type//
+bento:empty//
+apple:not(.small)//
+
+[for]//
+[for="Sarah"],[for="Luke"]//
+[for="Vitaly"]//
+[for^="Sam"],[for^="Sarah"]//
+[for$="Hayato"],[for$="Minato"]//
+[for*="Robbie"],[for*="Bobby"]
+
+
+
+
+
+

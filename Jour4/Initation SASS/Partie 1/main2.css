@@ -1,0 +1,35 @@
+/*
+1er - ESSAIE DAPPLIQUER MIXIN
+2em - ESSAIE DAPPLIQUER TABLEAU
+3EME - ESSAIE DAPPLIQUER VARIABLES
+4EME - FONCTIONS ET BOUCLES
+*/
+@mixin Flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+@mixin Rectangle {
+  height: 100px;
+  width:100px;
+  background-color: rgb(94, 0, 110);
+  margin: 10px;
+}
+body{
+@include Flex(column)
+
+}
+/* INDICE : FOR + IF**/
+.contneur_P1{
+  @include Flex(row)
+}
+.contneur_P{
+  @include Flex(row)
+}
+.conteneur_div{
+  @include Flex(row)
+}
+@for $i from 1 through 5{
+  .RECT#{$i}{
+      @include Rectangle;
+  }
+}

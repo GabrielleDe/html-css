@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex($direction){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@for $i from 1 through 3 {
+    .contneur#{$i}{
+        @include flex;
+    }
+}
+
+
+@mixin rectangle{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+@for $i from 1 through 5 {
+    .rect#{$i}{
+        @include rectangle;
+    }
+}
+

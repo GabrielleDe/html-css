@@ -1,0 +1,120 @@
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.col-5 {
+  width: 125%;
+}
+
+/*
+
+1er : banane ,cerise,annans ,pomme se trouve
+dans tab de question 03 donc il faut utiliser le tableau
+dans la boucle
+nth(nom_tableau , $i) ---> Element du tableau
+indice : on peut changer
+
+2eme : $i qui change dans boucle for
+***/
+/***taille = 4***/
+/**    1        2       3       4**/
+.fruits-banane {
+  width: 50%;
+}
+
+.fruits-cerise {
+  width: 50%;
+}
+
+.fruits-ananas {
+  width: 50%;
+}
+
+.fruits-pomme {
+  width: 50%;
+}
+
+.fruits-banane {
+  width: 50%;
+}
+
+.fruits-cerise {
+  width: 50%;
+}
+
+.fruits-ananas {
+  width: 50%;
+}
+
+.fruits-pomme {
+  width: 50%;
+}
+
+/**POUR TESTEZ**/
+/*SI ON A QLQ CHOSE QUI RETOURNE UNE VALEUR ON STOCKE LA VALEUR DANS UN VARIABLE**/
+.fruits-pomme {
+  width: 50%;
+}
+
+/*****************************/
+body {
+  background-color: white;
+}
+
+.social-facebook {
+  color: #3b5998;
+  background-color: #4c70ba;
+}
+
+.social-flickr {
+  color: #0063db;
+  background-color: #0f7bff;
+}
+
+.social-linkedin {
+  color: #007bb6;
+  background-color: #009de9;
+}
+
+.social-twitter {
+  color: #00aced;
+  background-color: #21c2ff;
+}
+
+.social-vimeo {
+  color: #aad450;
+  background-color: #bede79;
+}
+
+.social-youtube {
+  color: #bb0000;
+  background-color: #ee0000;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,38 @@
+.container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.rect {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  background-color: magenta;
+  color: black;
+}
+
+.enfant1 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.enfant2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.enfant3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.enfant4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}/*# sourceMappingURL=main.css.map */

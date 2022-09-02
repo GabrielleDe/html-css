@@ -1,0 +1,12 @@
+body{
+    display: flex;
+}
+
+p{
+   color: red;
+}
+@media print{
+    p{
+        color: red;
+    }
+}
